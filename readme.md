@@ -12,14 +12,22 @@ The datasets available for this workshop are:
 
 See the brief summaries of each dataset below to try before you buy.
 
-##Wheat
+####Wheat
 Playfair (1821) used a graph, showing parallel time-series of the price of wheat and the typical weekly wage for a "good mechanic" from 1565 to 1821 to argue that working men had never been as well-off in terms of purchasing power as they had become toward the end of this period.
 
 ![Playfair's Wages and Wheat](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/images/playfair-wages-wheat.png?raw=true)
 
 His graph is a classic in the history of data visualization, but commits the sin of showing two non-commensurable Y variables on different axes. Scatterplots of wages vs. price or plots of ratios (e.g., wages/price) are in some ways better, but both of these ideas were unknown in 1821.
 
-##Delivery
+This dataset represent parcel delivery data with columns:
+- Year: Year, in intervals of 5 from 1565 to 1821: a numeric vector
+  - We see one observation every five years.
+- Wheat: Price of Wheat (Shillings/Quarter bushel): a numeric vector
+  - The median price seems to hover just above 40 Shillings per quarter bushel. Howeve, the distribution is a longtail to the right. Be sure to explore those higher values.
+- Wages: Weekly wage (Shillings): a numeric vector
+  - Wages seem to cluster around 6, but the median is actually closer to 8. The full distribution extends all the way to 30. Watch out for NA values that may need to be filtered out or ignored.
+
+####Delivery
 Delivery Time Data, from Montgomery and Peck (1982). The aim is to explain the time required to service a vending machine (Y) by means of the number of products stocked (X1) and the distance walked by the route driver (X2).
 
 This dataset represent parcel delivery data with columns:
@@ -30,7 +38,7 @@ This dataset represent parcel delivery data with columns:
 - delTime - time to make the delivery
   - With the way this data is currently set up, there is little redundancy in exact delivery times. By setting delivery time on the x-axis for each of the deliveries we can see that most deliveries take about 18 minutes. There are a few outlier of delivers taking 40, 52 and 79 minutes.
 
-##Education
+####Education
 Education Expenditure Data, from Chatterjee and Price (1977, p.108). This data set, representing the education expenditure variables in the 50 US states, providing an interesting example of heteroscedasticity.
 
 If you, like me, don't know what heteroscedacity is let me save you the Google search...
