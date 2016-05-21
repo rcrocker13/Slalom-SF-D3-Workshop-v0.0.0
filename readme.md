@@ -12,7 +12,14 @@ The datasets available for this workshop are:
 
 See the brief summaries of each dataset below to try before you buy.
 
-## Delivery
+##Wheat
+Playfair (1821) used a graph, showing parallel time-series of the price of wheat and the typical weekly wage for a "good mechanic" from 1565 to 1821 to argue that working men had never been as well-off in terms of purchasing power as they had become toward the end of this period.
+
+![Playfair's Wages and Wheat](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/images/playfair-wages-wheat.png?raw=true)
+
+His graph is a classic in the history of data visualization, but commits the sin of showing two non-commensurable Y variables on different axes. Scatterplots of wages vs. price or plots of ratios (e.g., wages/price) are in some ways better, but both of these ideas were unknown in 1821.
+
+##Delivery
 Delivery Time Data, from Montgomery and Peck (1982). The aim is to explain the time required to service a vending machine (Y) by means of the number of products stocked (X1) and the distance walked by the route driver (X2).
 
 This dataset represent parcel delivery data with columns:
