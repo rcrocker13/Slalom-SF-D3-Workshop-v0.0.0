@@ -58,6 +58,8 @@ The columns of this dataset are:
 ###Ice Cream
 Ice cream consumption was measured over 30 four-week periods from March 18, 1951 to July 11, 1953. The purpose of the study was to determine if ice cream consumption depends on the variables price, income, or temperature.
 
+![Ice Crea](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/images/ice-cream-love.png?raw=true)
+
 The columns of this dataset are:
 - cons: Ice cream consumption in pints per capita
   - We have a sparse distribution with only 30 observations. However we can see the a 1/3 of a pint is a popular value.
