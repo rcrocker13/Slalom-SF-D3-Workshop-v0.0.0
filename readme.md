@@ -54,3 +54,16 @@ The columns of this dataset are:
   - This dataset contains forward gears of 3, 4, and 5. 5 is by far the least popular.
 - carb: number of carborators
   - Most cars has either 2 or 4 carborators, but there are two beasts with 6 and 8 carbs.
+
+###Ice Cream
+Ice cream consumption was measured over 30 four-week periods from March 18, 1951 to July 11, 1953. The purpose of the study was to determine if ice cream consumption depends on the variables price, income, or temperature.
+
+The columns of this dataset are:
+- cons: Ice cream consumption in pints per capita
+  - We have a sparse distribution with only 30 observations. However we can see the a 1/3 of a pint is a popular value.
+- income: Weekly family income in dollars
+  - Not exactly a representative sample of income, but well spread.
+- price: Price of ice cream per pint in dollars
+  - It looks like the quarter was a popular amount barter mechanism for ice cream trade back in the day.
+- temp: Mean temperature in degrees F
+  - This was not a warm climate where ice cream consuption was observed.
