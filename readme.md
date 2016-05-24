@@ -12,6 +12,11 @@ The datasets available for this workshop are:
 
 See the brief summaries of each dataset below to try before you buy.
 
+##Iris
+This famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.
+![Multi-plot of Iris dataset]()
+
+
 ####Wheat
 Playfair (1821) used a graph, showing parallel time-series of the price of wheat and the typical weekly wage for a "good mechanic" from 1565 to 1821 to argue that working men had never been as well-off in terms of purchasing power as they had become toward the end of this period.
 
