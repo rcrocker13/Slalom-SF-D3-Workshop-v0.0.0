@@ -30,8 +30,6 @@ The columns of this dataset are:
 - Species
   - In this dataset we have 50 observations of each species: setosa, versicolor and viginica.
 
-Species:
-
 ####Wheat
 Playfair (1821) used a graph, showing parallel time-series of the price of wheat and the typical weekly wage for a "good mechanic" from 1565 to 1821 to argue that working men had never been as well-off in terms of purchasing power as they had become toward the end of this period.
 
