@@ -29,6 +29,8 @@ The columns of this dataset are:
 ###Motor Trend Cars
 The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
 
+![Motor Trend Cars](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/images/motor-trend-cars.png?raw=true)
+
 The columns of this dataset are:
 - id: car name
   - This dataset looks at 32 individual vehicles.
