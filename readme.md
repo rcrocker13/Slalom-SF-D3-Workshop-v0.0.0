@@ -1,14 +1,9 @@
 # 1st D3 Workshop at Slalom SF
 
 The datasets available for this workshop are:
-* [Wheat](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/Wheat.csv)
-* [Trees](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/trees.csv)
 * [Motor Trend Cars](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/mtcars.csv)
-* [Minard Temp](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/Minard.temp.csv)
 * [Iris](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/iris.csv)
 * [Ice Cream](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/Icecream.csv)
-* [Education](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/education.csv)
-* [Delivery](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/delivery.csv)
 
 See the brief summaries of each dataset below to try before you buy.
 
