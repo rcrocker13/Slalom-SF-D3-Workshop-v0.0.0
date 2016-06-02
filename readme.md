@@ -1,43 +1,43 @@
-## 1st D3 Workshop at Slalom SF
+# 1st D3 Workshop at Slalom SF
 
-### HTML
+## HTML
 - Adding structure with elements
 
-### CSS
+## CSS
 - Selectors
 - Properties and Values
 
-### JavaScript
+## JavaScript
 - Hello Console
 - Variables
 - Arrays
 - functions
 - Comments
 
-### SVG
+## SVG
 - The SVG Element
 - Simple Shapes
 - Styling SVGs with CSS
 - Layering and Drawing Order
 
-### Setup
+## Setup
 - Downloading
 - Referencing
 - Web Server
 
-### Data
+## Data
 - generate elements
 
-#### Binding Data
+### Binding Data
 - Please make your selection
 - Data wants to be held
 
-### Drawing with Data
+## Drawing with Data
 - Drawing divs
 
-### The Power of Data
+## The Power of Data
 
-### Drawing SVGs
+## Drawing SVGs
 - Pretty Colors Ooo
 
 ## Make a Bar Chart
