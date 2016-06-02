@@ -28,14 +28,14 @@
 ## Data
 - generate elements
 
-### Binding Data
-- Please make your selection
-- Data wants to be held
+  ### Binding Data
+  - Please make your selection
+  - Data wants to be held
 
-## Drawing with Data
-- Drawing divs
+  ### Drawing with Data
+  - Drawing divs
 
-## The Power of Data
+  ### The Power of Data
 
 ## Drawing SVGs
 - Pretty Colors Ooo
