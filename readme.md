@@ -1,5 +1,49 @@
 ## 1st D3 Workshop at Slalom SF
 
+### HTML
+- Adding structure with elements
+
+### CSS
+- Selectors
+- Properties and Values
+
+### JavaScript
+- Hello Console
+- Variables
+- Arrays
+- functions
+- Comments
+
+### SVG
+- The SVG Element
+- Simple Shapes
+- Styling SVGs with CSS
+- Layering and Drawing Order
+
+### Setup
+- Downloading
+- Referencing
+- Web Server
+
+### Data
+- generate elements
+
+#### Binding Data
+- Please make your selection
+- Data wants to be held
+
+### Drawing with Data
+- Drawing divs
+
+### The Power of Data
+
+### Drawing SVGs
+- Pretty Colors Ooo
+
+## Make a Bar Chart
+
+## Make a Scatter Plot
+
 The datasets available for this workshop are:
 * [Iris](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/iris.csv)
 * [Motor Trend Cars](https://github.com/rcrocker13/Slalom-SF-D3-Workshop-v0.0.0/blob/master/data/mtcars.csv)
