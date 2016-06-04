@@ -13,54 +13,7 @@
 	-->
 	<title>Getting Started with D3</title>
 	<style>
-		/* http://meyerweb.com/eric/tools/css/reset/
-		   v2.0 | 20110126
-		   License: none (public domain)
-		*/
-
-		html, body, div, span, applet, object, iframe,
-		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-		a, abbr, acronym, address, big, cite, code,
-		del, dfn, em, img, ins, kbd, q, s, samp,
-		small, strike, strong, sub, sup, tt, var,
-		b, u, i, center,
-		dl, dt, dd, ol, ul, li,
-		fieldset, form, label, legend,
-		table, caption, tbody, tfoot, thead, tr, th, td,
-		article, aside, canvas, details, embed,
-		figure, figcaption, footer, header, hgroup,
-		menu, nav, output, ruby, section, summary,
-		time, mark, audio, video {
-			margin: 0;
-			padding: 0;
-			border: 0;
-			font-size: 100%;
-			font: inherit;
-			vertical-align: baseline;
-		}
-		/* HTML5 display-role reset for older browsers */
-		article, aside, details, figcaption, figure,
-		footer, header, hgroup, menu, nav, section {
-			display: block;
-		}
-		body {
-			line-height: 1;
-		}
-		ol, ul {
-			list-style: none;
-		}
-		blockquote, q {
-			quotes: none;
-		}
-		blockquote:before, blockquote:after,
-		q:before, q:after {
-			content: '';
-			content: none;
-		}
-		table {
-			border-collapse: collapse;
-			border-spacing: 0;
-		}
+		/* Style your page here */
 	</style>
 </head>
 <body>
@@ -70,7 +23,10 @@
 
 	<section>
 		<h2>Writing Our First HTML</h2>
-		<article>insert html here</article>
+		<article>
+			<p>HTML is markup language witten in plain text. When we write an HTML page we are letting the browser know how we would like our page to be lain out. Without HTML we wouldn't be able to have lengthy conversations with our friends about website layouts that appeal to us. HTML tags create elements in the DOM that we can style and move around as we see fit.</p>
+			<p>With D3 we can use JavaScript to select these HTML elements, style those element, add transitions and move them around when users interact with our page. You could think about the elements on a page as an array of nodes. As we markup our page we are defining the structure we will be append new data-bound elements to later.</p>
+		</article>
 	</section>
 	<aside>
 		It all starts with an HTML page. From here we can style, bind data and trasform the data into meaningful insights.
@@ -79,7 +35,7 @@
 	<section>
 		<h2>Get your Style Under Control with CSS</h2>
 		<article>
-
+			<p>We have a lot of control of the style of our code before ever touching JavaScript. In fact you can find arguments from developers that you want to style with CSS as much as possible. An interesting poin made <a href="http://stackoverflow.com/questions/19188419/better-or-worse-styling-with-javascript-vs-css">here</a> is that when  you style elements with JavaScript you're actually passing CCS rules to the DOM. We can't predict all of the styles to apply to our screen onload, especially those drive by data, but there is not reason not to style the style the static elements.</p>
 		</article>
 	</section>
 	<aside>
