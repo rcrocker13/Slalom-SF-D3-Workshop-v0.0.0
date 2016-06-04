@@ -1,5 +1,11 @@
 # 1st D3 Workshop at Slalom SF
 
+### What you need to get started:
+- modern web browser (Chrome, Firefox, Safari)
+- github account and git installed
+- local web-server
+- text editor
+
 ## HTML
 - Adding structure with elements
 
