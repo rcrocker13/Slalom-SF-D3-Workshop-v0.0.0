@@ -25,6 +25,7 @@
 		<h2>Writing Our First HTML</h2>
 		<article>
 			<p>HTML is markup language witten in plain text. When we write an HTML page we are letting the browser know how we would like our page to be lain out. Without HTML we wouldn't be able to have lengthy conversations with our friends about website layouts that appeal to us. HTML tags create elements in the DOM that we can style and move around as we see fit.</p>
+
 			<p>With D3 we can use JavaScript to select these HTML elements, style those element, add transitions and move them around when users interact with our page. You could think about the elements on a page as an array of nodes. As we markup our page we are defining the structure we will be append new data-bound elements to later.</p>
 		</article>
 	</section>
@@ -39,12 +40,20 @@
 		</article>
 	</section>
 	<aside>
-
+		<p>Let's choose some style to apply to our site to this point. How do we want our title text to show up? Do we want to add shading, padding, or borders to any of our elements?</p>
 	</aside>
 
 	<section>
 		<h2>If You Could Be a Shape What Shape Would You Be?</h2>
-		<article></article>
+		<p>For anyone looking to dig into SVG more deeply I would recommend exploring <a href="http://svgpocketguide.com/book/">Pocket Guide to Writing SVG</a>. There are also great examples of SVG used in conjunction with D3 by <a href="http://www.visualcinnamon.com/">Nadiah Bremer</a>. And if Nadiah says you such learn more about SVG <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">here</a> then I wouldn't take her advice lightly.</p>
+
+		<p>SVG is another standard language classified as both a container an structural element. I interpret this to mean that SVGs can contain several child elements composing more complex shapes than basic rects, ovals or text. The structural SVGs are: defs, g, svg, symbol and use.</p>
+
+		<p>We can manipulate any of these elements with D3, but the main structral elements we will be using are the svg (main container) and the <a href="https://www.dashingd3js.com/svg-group-element-and-d3js">g</a> element. We typically use the g element to group nodes together, like circles and text or axis.</p>
+
+		<article>
+			<p>Looking at shapes through the eyes of SVG should give you a better sense of what we are able to render on the screen. Hopefully, you're also getting excited about how much flexability you're going to have to express yourself. There's a lot of unknowns, so don't be shy to see how close you can come to creating the illustrations of your dreams.</p>
+		</article>
 	</section>
 	<aside>
 
@@ -52,7 +61,7 @@
 
 
 	<section>
-		<h2>For Boxes to Bars with Motor Trend Cars</h2>
+		<h2>From Boxes to Bars with Motor Trend Cars</h2>
 		<article></article>
 	</section>
 	<aside>
