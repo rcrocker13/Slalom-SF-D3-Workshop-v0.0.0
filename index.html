@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 	<!--
 		You can use the syntax above or <script charset="utf-8" src="d3.js"></script>
 
@@ -62,7 +63,62 @@
 
 	<section>
 		<h2>From Boxes to Bars with Motor Trend Cars</h2>
-		<article></article>
+		<article class="bar-chart">
+		</article>
+
+		<script>
+			var margin = {top: 20, right: 10, bottom: 20, left: 10};
+			var height = 500 - margin.top - margin.bottom;
+			var width = 960 - margin.right - margin.left;
+
+			var svg = d3.select(".bar-chart").append("svg")
+				.attr("width", width)
+				.attr("height", height)
+				.style("border", "1px solid #f04");
+
+			d3.csv("data/mtcars.csv", function(data) {
+
+			data = data.map(function(d) {
+
+				return {
+					car: d.car,
+					mpg: +d.mpg,
+					cylinders: +d.cyl,
+					displacement: +d.disp,
+					horsePower: +d.hp,
+					drat: +d.drat,
+					weight: +d.wt,
+					quarterMile: +d.qt,
+					vs: +d.vs,
+					am: +d.am,
+					gears: +d.gear,
+					carburetors: +d.carb
+				};
+
+			});
+
+			console.log(data);
+
+			var xScale = d3.scale.linear()
+				.domain(d3.extent(data, function(d) { return d.horsePower; }))
+				.range([0, width]);
+
+			var yScale = d3.scale.ordinal()
+				.domain(data.map(function(d) { return d.car; }))
+				.rangeRoundBands([height, 0], 0, 1);
+
+			bars = svg.selectAll("rect")
+				.data(data).enter()
+				.append("rect")
+				.attr("x", 0)
+				.attr("y", function(d) { return yScale(d.car); })
+				.attr("height", height / data.length - 2.5)
+				.attr("width", function(d) { return xScale(d.horsePower); })
+				.attr("fill", "steelblue");
+
+			});
+
+		</script>
 	</section>
 	<aside>
 
